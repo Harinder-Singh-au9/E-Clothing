@@ -1,38 +1,15 @@
-.App {
-  text-align: center;
+.firstLayer{
+  background-color: white;
+  padding:10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.secondLayer{
+  background: url('https://th.bing.com/th/id/Rbfc9c306f9a0f47b753d8f25b15a866c?rik=egey7Aa7ZsxUYA&pid=ImgRaw') "cover";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.thirdLayer{
+   width:fit-content;
+   background-color: white;
+   opacity: 60%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
